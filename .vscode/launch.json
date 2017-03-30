@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "ocamldebug",
+            "request": "launch",
+            "cd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/out/debug/${fileBasenameNoExtension}.d.byte",
+            "stopOnEntry": false,
+            "preLaunchTask": "debug" // Build before launch
+        }
+    ]
+}
